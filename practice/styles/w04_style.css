@@ -1,0 +1,47 @@
+
+body{
+    background-color: #FCB7D7;
+    text-align: center;
+    margin: 0 auto
+}
+h1{
+    font-size: 3em;
+}
+
+h3{font-size: 1em;
+}
+
+.message{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding-left: 40%;
+    padding-right: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.ordinances{
+    display: block;
+    text-align: left;
+    padding-left: 30%;
+    list-style-position: inside;
+    font-weight: bold
+}
+
+
+#hero{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.prophet_photo{
+   display: block;
+    width: 15%;
+    margin: 0 auto;
+}
+
+#title:hover{
+    color: black
+
+}
