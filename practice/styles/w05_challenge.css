@@ -1,0 +1,25 @@
+.hero_banner{
+    margin:0;
+    display: inline-block;
+    width: 100%;
+}
+
+#gallery{
+   
+    background-color: grey;
+    padding: 150px;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+
+.desk, .graphic, .photo{
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid 40px #434343;
+    margin:0 150px auto;
+    width: 23%;
+    border-radius: 50%;
+
+}
