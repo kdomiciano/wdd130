@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+
 #content{
     max-width: 1600px;
     margin:0 auto;
 
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 .icon{
@@ -10,6 +21,14 @@
 
 body{
     background-color: white;
+    font-family:Mandali, Lato, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin:0;
 }
 
 h4{
@@ -25,6 +44,7 @@ nav a{
     background-color: #EE8434;
     color: #1E5663;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -32,16 +52,23 @@ nav a:hover{
     color:#535353;
 }
 
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
 
+}
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    color: white
+    color: #1E5663;
+    
 }
 
 #hero-msg h1 {
     text-align:center;
     color:#EE8434;
+    font-family:"Permanent Marker","Rubik Marker Hatch","Prosto One";
+    
 }
 /* #hero-msg h1 {
     text-align:center;
@@ -53,15 +80,32 @@ nav a:hover{
     color:#1E5663;
 } */
 
-
+.icon{
+    padding-top: 10px;
+}
 
 .book, .join{
     background-color: #EE8434;
     color:#1E5663;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
    
 }
 
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: solid 10px #B2DDD1;
+}
+
+main section img{
+    box-sizing: border-box;
+}
 .book:hover, .join:hover{
     background-color: #B2DDD1;
     color:#535353
@@ -76,14 +120,19 @@ main {
 }
 .msg{
     background-color: #1E5663;
+    line-height: 1.5em ;
+    padding: 35px;
     
 }
 .msg h2{
     color: white;
+    font-family:"Permanent Marker","Rubik Marker Hatch","Prosto One";
 }
 
 .msg p{
     color:#B2DDD1;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 #background{
     height:725px;
@@ -93,6 +142,8 @@ main {
 footer{
     background-color: #B2DDD1;
     color:#535353;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -107,4 +158,8 @@ footer a:hover{
 }
 footer p{
     font-size: 1.2em;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
